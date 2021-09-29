@@ -18,5 +18,9 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-image: url("./images/road.png");
+  background-color: powderblue;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 700px;
 }

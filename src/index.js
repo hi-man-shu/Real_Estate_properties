@@ -33,7 +33,7 @@ class Products extends React.Component {
         id: 4,
         category: "Resort",
         price: "99999₹",
-        qty: 5,
+        qty: 4,
         name: "THT resort",
       },
       {
@@ -47,7 +47,7 @@ class Products extends React.Component {
         id: 6,
         category: "House",
         price: "199399₹",
-        qty: 23,
+        qty: 1,
         name: "Shanti Niwas",
       },
     ];
