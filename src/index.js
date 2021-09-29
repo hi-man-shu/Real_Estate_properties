@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import building from "./images/building.png";
 import "./index.css";
 class Products extends React.Component {
   constructor(props) {
@@ -95,7 +94,7 @@ class Products extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="down">
         <SearchBar
           filterText={this.state.filterText}
           onUserInput={this.handleUserInput.bind(this)}
@@ -153,11 +152,13 @@ class ProductTable extends React.Component {
         <button
           type="button"
           onClick={this.props.onRowAdd}
-          className="btn btn-success pull-right"
+          className="btn btn-success pull-right margin"
         >
           Add
         </button>
-        <table className="table table-bordered fav">
+
+        <br />
+        <table className="table table-bordered fav center">
           <thead>
             <tr>
               <th>Name</th>

@@ -2,14 +2,21 @@
   justify-content: center;
   text-align: center;
 }
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.margin {
+  margin-bottom: 150px;
+}
+
+.down {
+  margin-top: 150px;
+}
+
 body {
-  background-image: url
-    "https://www.google.com/url?sa=i&url=https%3A%2F%2Fpngimg.com%2Fimage%2F24478&psig=AOvVaw0iqyKNKuh1iB8vcjjVWMsW&ust=1632971505761000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNDvvo6bo_MCFQAAAAAdAAAAABAD";
-}
-#container {
-  text-align: center;
-  background-image: "../src/images/building.png";
-}
-.fav {
-  text-align: center;
+  background-color: aquamarine;
 }
